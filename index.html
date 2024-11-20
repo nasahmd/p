@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Link to Raleway Font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Link to External CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,27 +23,27 @@
   </nav>
 
   <section class="hero">
-    <h1>Design With Purpose</h1>
-    <p>Creating timeless, user-centric designs that connect and inspire.</p>
+    <h1 class="raleway-bold">Design With Purpose</h1>
+    <p class="raleway-regular">Creating timeless, user-centric designs that connect and inspire.</p>
     <div class="cta-buttons">
-      <button id="view-portfolio">View Portfolio</button>
-      <button id="contact-me">Contact Me</button>
+      <button class="raleway-light">View Portfolio</button>
+      <button class="raleway-light">Contact Me</button>
     </div>
   </section>
 
   <section id="work" class="portfolio container">
-    <h2>Portfolio</h2>
+    <h2 class="raleway-bold">Portfolio</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="images/project1.jpg" alt="Project 1">
+        <img src="project1.jpg" alt="Project 1">
         <div class="info">E-commerce App</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/project2.jpg" alt="Project 2">
+        <img src="project2.jpg" alt="Project 2">
         <div class="info">Portfolio Website</div>
       </div>
       <div class="portfolio-item">
-        <img src="images/project3.jpg" alt="Project 3">
+        <img src="project3.jpg" alt="Project 3">
         <div class="info">Brand Identity</div>
       </div>
     </div>
@@ -45,33 +51,31 @@
 
   <section id="about" class="about container">
     <div class="image">
-      <img src="images/portrait.jpg" alt="About Me">
+      <img src="portrait.jpg" alt="About Me">
     </div>
     <div class="text">
-      <h2>About Me</h2>
-      <p>I’m a UI/UX designer with a passion for crafting elegant and intuitive user experiences.</p>
+      <h2 class="raleway-bold">About Me</h2>
+      <p class="raleway-regular">I’m a UI/UX designer with a passion for crafting elegant and intuitive user experiences.</p>
       <div class="skills">
-        <span>UI Design</span>
-        <span>UX Research</span>
-        <span>Prototyping</span>
+        <span class="raleway-light">UI Design</span>
+        <span class="raleway-light">UX Research</span>
+        <span class="raleway-light">Prototyping</span>
       </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send</button>
+    <h2 class="raleway-bold">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required class="raleway-regular">
+      <input type="email" placeholder="Your Email" required class="raleway-regular">
+      <textarea placeholder="Your Message" rows="5" required class="raleway-regular"></textarea>
+      <button type="submit" class="raleway-light">Send</button>
     </form>
   </section>
 
   <footer>
     &copy; 2024 Your Name. All Rights Reserved.
   </footer>
-
-  <script src="js/scripts.js"></script>
 </body>
 </html>
