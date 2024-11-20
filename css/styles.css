@@ -48,6 +48,11 @@ button:hover {
   color: #000;
 }
 
+/* Rounded Button */
+.rounded-btn {
+  border-radius: 10px;
+}
+
 /* Navigation Bar */
 nav {
   display: flex;
